@@ -1,0 +1,12 @@
+/* ====================================
+container
+==================================== */
+
+.container {
+  --container-max-size: 1500px;
+  --container-padding: clamp(18px, 4vi, 30px);
+
+  margin: 0 auto;
+  max-inline-size: var(--container-max-size);
+  padding-inline: var(--container-padding);
+}

@@ -2,3 +2,8 @@
 
 /* BASE */
 @import "base/body.css" layer(body);
+
+/* COMPONENTS */
+@import "components/container.css" layer(components);
+@import "components/section.css" layer(components);
+@import "components/grid.css" layer(components);

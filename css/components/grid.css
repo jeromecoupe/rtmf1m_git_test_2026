@@ -1,0 +1,84 @@
+/* ====================================
+grid
+==================================== */
+
+.grid {
+  --grid-gap: 18px;
+  --grid-columns: 1;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+  gap: var(--grid-gap);
+}
+
+.grid-2cols {
+  --grid-columns: 2;
+}
+
+.grid-3cols {
+  --grid-columns: 3;
+}
+
+.grid-4cols {
+  --grid-columns: 4;
+}
+
+@media (width >= 500px) {
+  .grid-2cols-sm {
+    --grid-columns: 2;
+  }
+
+  .grid-3cols-sm {
+    --grid-columns: 3;
+  }
+
+  .grid-4cols-sm {
+    --grid-columns: 4;
+  }
+}
+
+@media (width >= 750px) {
+  .grid-2cols-md {
+    --grid-columns: 2;
+  }
+
+  .grid-3cols-md {
+    --grid-columns: 3;
+  }
+
+  .grid-4cols-md {
+    --grid-columns: 4;
+  }
+}
+
+@media (width >= 1024px) {
+  .grid-2cols-lg {
+    --grid-columns: 2;
+  }
+
+  .grid-3cols-lg {
+    --grid-columns: 3;
+  }
+
+  .grid-4cols-lg {
+    --grid-columns: 4;
+  }
+}
+
+@media (width >= 1440px) {
+  .grid-2cols-xl {
+    --grid-columns: 2;
+  }
+
+  .grid-3cols-xl {
+    --grid-columns: 3;
+  }
+
+  .grid-4cols-xl {
+    --grid-columns: 4;
+  }
+}

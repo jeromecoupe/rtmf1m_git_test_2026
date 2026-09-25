@@ -1,0 +1,9 @@
+/* ====================================
+section
+==================================== */
+
+.section {
+  --section-padding: clamp(30px, 6vi, 75px);
+
+  padding-block: var(--section-padding);
+}
